@@ -38,14 +38,14 @@ const ContactUs = () => {
 							tpsc.eastcampus@nsut.ac.in
 						</a>
 					</p>
-					<p>
+					{/* <p>
 						<a
 							href='mailto:tpo.eastcampus@nsut.ac.in'
 							target='_blank'
 							rel='noreferrer'>
 							tpo.eastcampus@nsut.ac.in
 						</a>
-					</p>
+					</p> */}
 				</div>
 				<div className='call'>
 					<img src='/icons/call.svg' alt='' />

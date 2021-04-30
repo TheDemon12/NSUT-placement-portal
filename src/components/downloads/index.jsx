@@ -26,6 +26,11 @@ const Downloads = () => {
 								download='placement-brochure-2020-2021'>
 								Placement Brochure 2020-21
 							</a>
+							<a
+								href='/downloads/invitation-doc.pdf'
+								download='invitation-doc-2020-2021'>
+								Placement Invitation 2020-2021
+							</a>
 							{/* <a href='' download='brochure'>
 								Lorem, ipsum.
 							</a>
@@ -52,11 +57,6 @@ const Downloads = () => {
 							<h2>Placement Documents</h2>
 						</div>
 						<div className='list'>
-							<a
-								href='/downloads/invitation-doc.pdf'
-								download='invitation-doc-2020-2021'>
-								Company Invitation Document
-							</a>
 							<a
 								href='/downloads/campus-recruitment-form.docx'
 								download='campus-recruitment-form'>

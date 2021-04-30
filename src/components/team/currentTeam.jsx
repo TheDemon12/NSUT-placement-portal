@@ -16,9 +16,16 @@ const CurrentTeam = () => {
 				<h1>OVERALL COORDINATORS</h1>
 				<div className='row'>
 					<Coordinator
+						imageURL='/team/students/avi-gupta.jpg'
+						name='Avi Gupta'
+						mobile='9643679467'
+						email='avi.gupta.e21@nsut.ac.in'
+						linkedinURL='https://www.linkedin.com/in/avi-gupta-00309a93/'
+					/>
+					<Coordinator
 						imageURL='/team/students/jaspreet-kaur.jpeg'
 						name='Jaspreet Kaur'
-						mobile='9205248912'
+						// mobile='9205248912'
 						email='jaspreet.kaur.e21@nsut.ac.in'
 						linkedinURL='https://www.linkedin.com/in/jaspreet-kaur-9a8056179/'
 					/>
@@ -28,13 +35,6 @@ const CurrentTeam = () => {
 						mobile='8743038435'
 						email='trishant.saxena.e21@nsut.ac.in'
 						linkedinURL='https://www.linkedin.com/in/trishant-saxena-383628172/'
-					/>
-					<Coordinator
-						imageURL='/team/students/avi-gupta.jpg'
-						name='Avi Gupta'
-						mobile='9643679467'
-						email='avi.gupta.e21@nsut.ac.in'
-						linkedinURL='https://www.linkedin.com/in/avi-gupta-00309a93/'
 					/>
 					<Coordinator
 						imageURL='/team/students/kartik.png'
@@ -180,6 +180,10 @@ const CurrentTeam = () => {
 					<Coordinator
 						imageURL='/team/students/generic.png'
 						name='Rupinder Singh'
+					/>
+					<Coordinator
+						imageURL='/team/students/generic.png'
+						name='Neeraj Sharma'
 					/>
 				</div>
 			</div>

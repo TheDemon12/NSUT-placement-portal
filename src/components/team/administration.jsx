@@ -29,6 +29,14 @@ const Administration = () => {
 							<h6>NSUT</h6>
 						</div>
 					</div>
+					<div className='box'>
+						<img src='/team/admin/mayank-bhardwaj.png' alt='' />
+						<div className='member-content'>
+							<h1>Mr. Mayank Bhardwaj</h1>
+							<h4>Consultant, Training & Placement</h4>
+							<h6>NSUT</h6>
+						</div>
+					</div>
 				</div>
 				<div className='row'>
 					<div className='box'>
@@ -39,14 +47,7 @@ const Administration = () => {
 							<h6>NSUT East Campus</h6>
 						</div>
 					</div>
-					<div className='box'>
-						<img src='/team/admin/mayank-bhardwaj.png' alt='' />
-						<div className='member-content'>
-							<h1>Mr. Mayank Bhardwaj</h1>
-							<h4>Consultant, Training & Placement</h4>
-							<h6>NSUT</h6>
-						</div>
-					</div>
+
 					<div className='box'>
 						<img src='/team/admin/amita-jain.png' alt='' />
 						<div className='member-content'>
