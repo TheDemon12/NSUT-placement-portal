@@ -1,11 +1,8 @@
 import React from 'react';
-import NavBar from './../common/navbar';
-import Footer from './../common/footer';
 
 const Administration = () => {
 	return (
 		<div className='administration'>
-			<NavBar />
 			<div
 				className='heading'
 				style={{ backgroundImage: `url("/team/bg.png")` }}>
@@ -65,7 +62,6 @@ const Administration = () => {
 					</div>
 				</div>
 			</div>
-			<Footer />
 		</div>
 	);
 };

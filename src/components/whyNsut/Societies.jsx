@@ -1,12 +1,9 @@
 import React from 'react';
 import { Row, Card, Container, Col } from 'react-bootstrap';
-import NavBar from './../common/navbar';
-import Footer from './../common/footer';
 
 export default function Societies() {
 	return (
 		<div>
-			<NavBar />
 			<div className='societies'>
 				<div
 					className='banner our-societies'
@@ -194,7 +191,6 @@ export default function Societies() {
 					<br />
 				</Container>
 			</div>
-			<Footer />
 		</div>
 	);
 }

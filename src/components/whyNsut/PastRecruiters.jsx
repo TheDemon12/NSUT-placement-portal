@@ -1,12 +1,9 @@
 import React from 'react';
-import NavBar from './../common/navbar';
-import Footer from './../common/footer';
-import { Row, Card, Container, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 export default function PastRecruiters() {
 	return (
 		<div>
-			<NavBar />
 			<div
 				className='banner past-recruiters'
 				style={{ backgroundImage: `url("/why-nsut/recruitment.png")` }}>
@@ -31,7 +28,6 @@ export default function PastRecruiters() {
 					</center>
 				</div>
 			</Container>
-			<Footer />
 		</div>
 	);
 }

@@ -1,12 +1,9 @@
 import React from 'react';
 import { Row, Card, Container, Col } from 'react-bootstrap';
-import NavBar from './../common/navbar';
-import Footer from './../common/footer';
 
 export default function CoursesOffered() {
 	return (
 		<div>
-			<NavBar />
 			<div className='courses'>
 				<div
 					className='banner courses-offered'
@@ -194,7 +191,6 @@ export default function CoursesOffered() {
 					</Row>
 				</Container>
 			</div>
-			<Footer />
 		</div>
 	);
 }

@@ -1,11 +1,8 @@
 import React from 'react';
-import Navbar from '../common/navbar';
-import Footer from '../common/footer';
 
 const Downloads = () => {
 	return (
 		<div className='downloads'>
-			<Navbar />
 			<div
 				className='heading'
 				style={{ backgroundImage: `url("/downloads/bg.png")` }}>
@@ -76,7 +73,6 @@ const Downloads = () => {
 					</div>
 				</div>
 			</div>
-			<Footer />
 		</div>
 	);
 };

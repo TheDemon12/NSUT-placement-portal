@@ -1,6 +1,5 @@
 import React from 'react';
-import Navbar from '../common/navbar';
-import Footer from '../common/footer';
+
 import { Form, Button } from 'react-bootstrap';
 import { init, send } from '@emailjs/browser';
 
@@ -15,7 +14,6 @@ const ContactUs = () => {
 
 	return (
 		<div className='contact-us'>
-			<Navbar />
 			<div
 				className='heading'
 				style={{ backgroundImage: `url("/contact-us/bg.png")` }}>
@@ -135,7 +133,6 @@ const ContactUs = () => {
 					title='NSUT East Campus Map'
 				/>
 			</div>
-			<Footer />
 		</div>
 	);
 };

@@ -1,13 +1,9 @@
 import React from 'react';
-import Navbar from '../common/navbar';
-import Footer from '../common/footer';
-import { Carousel, Button } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 
 const AboutUs = () => {
 	return (
 		<div className='about-us'>
-			<Navbar />
-
 			{/* about nsut first section */}
 			<section
 				className='wrapper'
@@ -138,7 +134,6 @@ const AboutUs = () => {
 				</div>
 			</section>
 			{/* end section */}
-			<Footer />
 		</div>
 	);
 };

@@ -1,12 +1,9 @@
 import React from 'react';
-import NavBar from './../common/navbar';
-import Footer from './../common/footer';
 import Coordinator from './common/coordinator';
 
 const CurrentTeam = () => {
 	return (
 		<div className='current-team'>
-			<NavBar />
 			<div
 				className='heading'
 				style={{ backgroundImage: `url("/team/bg.png")` }}>
@@ -183,7 +180,6 @@ const CurrentTeam = () => {
 					/>
 				</div>
 			</div>
-			<Footer />
 		</div>
 	);
 };

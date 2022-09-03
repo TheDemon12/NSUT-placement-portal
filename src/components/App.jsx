@@ -1,4 +1,8 @@
+import { useState } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
+import NavBar from './common/navbar';
+import Footer from './common/footer';
+import Alert from './common/alert';
 import Home from './home';
 import AboutUs from './aboutUs';
 import Process from './process';
@@ -13,22 +17,29 @@ import Administration from './team/administration';
 import CurrentTeam from './team/currentTeam';
 
 function App() {
+	const [isAlertOpen, setIsAlertOpen] = useState(true);
+
 	return (
-		<Switch>
-			<Route path='/about-us' component={AboutUs} />
-			<Route path='/why-nsut/courses-offered' component={CoursesOffered} />
-			<Route path='/why-nsut/past-recruiters' component={PastRecruiters} />
-			<Route path='/why-nsut/our-alumni' component={OurAlumni} />
-			<Route path='/why-nsut/our-societies' component={Societies} />
-			<Route path='/process' component={Process} />
-			<Route path='/downloads' component={Downloads} />
-			<Route path='/team/administration' component={Administration} />
-			<Route path='/team/current' component={CurrentTeam} />
-			<Route path='/contact-us' component={ContactUs} />
-			<Route path='/not-found' component={NotFound} />
-			<Route path='/' exact component={Home} />
-			<Redirect to='/not-found' />
-		</Switch>
+		<>
+			<NavBar />
+			<Alert isOpen={isAlertOpen} setIsOpen={setIsAlertOpen} />
+			<Switch>
+				<Route path='/about-us' component={AboutUs} />
+				<Route path='/why-nsut/courses-offered' component={CoursesOffered} />
+				<Route path='/why-nsut/past-recruiters' component={PastRecruiters} />
+				<Route path='/why-nsut/our-alumni' component={OurAlumni} />
+				<Route path='/why-nsut/our-societies' component={Societies} />
+				<Route path='/process' component={Process} />
+				<Route path='/downloads' component={Downloads} />
+				<Route path='/team/administration' component={Administration} />
+				<Route path='/team/current' component={CurrentTeam} />
+				<Route path='/contact-us' component={ContactUs} />
+				<Route path='/not-found' component={NotFound} />
+				<Route path='/' exact component={Home} />
+				<Redirect to='/not-found' />
+			</Switch>
+			<Footer />
+		</>
 	);
 }
 

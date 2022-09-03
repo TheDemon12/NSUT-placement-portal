@@ -1,11 +1,8 @@
 import React from 'react';
-import Navbar from '../common/navbar';
-import Footer from '../common/footer';
 
 const Process = () => {
 	return (
 		<div className='process'>
-			<Navbar />
 			<div className='min-height-wrapper'>
 				<div
 					className='heading'
@@ -21,7 +18,6 @@ const Process = () => {
 						}
 					/>
 				</div>
-				<Footer />
 			</div>
 		</div>
 	);
